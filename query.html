@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add plants</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("https://media.istockphoto.com/id/1268045137/photo/potted-snake-plants-inside-a-beautiful-new-flat-or-apartment.jpg?s=612x612&w=0&k=20&c=UX79enZ3Rn2jX5labxi_u2Y0s4X3lfOPfr_UG91yego=");
+      background-size: cover;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .container input[type="text"],
+    .container input[type="text"],
+    .container input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #16a085;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    .container input[type="submit"]:hover {
+      background-color: #16a085;
+    }
+    
+    .container p {
+      text-align: center;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>ADD PLANTS</h2>
+    <form>
+      <input type="text" name="Plant name" placeholder="Plant name" required>
+      <input type="text" name="Plant variety" placeholder="Plant variety" required>
+      <input type="number" name="Cost" placeholder="Cost" required>
+      <input type="submit" value="Enter">
+    </form>
+    <p>field is empty  ?<a href="#">Add</a></p>
+  </div>
+</body>
+</html>
